@@ -30,7 +30,7 @@ public class RunnerClass {
 						int savingsChoice=sc.nextInt();
 						switch(savingsChoice) {
 							case(1):
-								account.depoitMoney();
+								account.depositMoney();
 								break;
 							case(2):
 								account.withDrawMoney();
@@ -52,7 +52,7 @@ public class RunnerClass {
 						int currentChoice=sc.nextInt();
 						switch(currentChoice) {
 						case(1):
-							account2.depoitMoney();
+							account2.depositMoney();
 							break;
 						case(2):
 							account2.withDrawMoney();
